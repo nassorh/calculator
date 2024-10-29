@@ -1,0 +1,25 @@
+{
+  "" : {
+    "const-values" : "/Users/hamad.nassor/Desktop/calculator/build/calculator.build/Release-iphoneos/calculator.build/Objects-normal/arm64/calculator-master.swiftconstvalues",
+    "dependencies" : "/Users/hamad.nassor/Desktop/calculator/build/calculator.build/Release-iphoneos/calculator.build/Objects-normal/arm64/calculator-master.d",
+    "diagnostics" : "/Users/hamad.nassor/Desktop/calculator/build/calculator.build/Release-iphoneos/calculator.build/Objects-normal/arm64/calculator-master.dia",
+    "emit-module-dependencies" : "/Users/hamad.nassor/Desktop/calculator/build/calculator.build/Release-iphoneos/calculator.build/Objects-normal/arm64/calculator-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/hamad.nassor/Desktop/calculator/build/calculator.build/Release-iphoneos/calculator.build/Objects-normal/arm64/calculator-master-emit-module.dia",
+    "swift-dependencies" : "/Users/hamad.nassor/Desktop/calculator/build/calculator.build/Release-iphoneos/calculator.build/Objects-normal/arm64/calculator-master.swiftdeps"
+  },
+  "/Users/hamad.nassor/Desktop/calculator/build/calculator.build/Release-iphoneos/calculator.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/calculator.build/Release-iphoneos/calculator.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/hamad.nassor/Desktop/calculator/build/calculator.build/Release-iphoneos/calculator.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/hamad.nassor/Desktop/calculator/build/calculator.build/Release-iphoneos/calculator.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  },
+  "/Users/hamad.nassor/Desktop/calculator/calculator/calculatorApp.swift" : {
+    "index-unit-output-path" : "/calculator.build/Release-iphoneos/calculator.build/Objects-normal/arm64/calculatorApp.o",
+    "llvm-bc" : "/Users/hamad.nassor/Desktop/calculator/build/calculator.build/Release-iphoneos/calculator.build/Objects-normal/arm64/calculatorApp.bc",
+    "object" : "/Users/hamad.nassor/Desktop/calculator/build/calculator.build/Release-iphoneos/calculator.build/Objects-normal/arm64/calculatorApp.o"
+  },
+  "/Users/hamad.nassor/Desktop/calculator/calculator/ContentView.swift" : {
+    "index-unit-output-path" : "/calculator.build/Release-iphoneos/calculator.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/hamad.nassor/Desktop/calculator/build/calculator.build/Release-iphoneos/calculator.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/hamad.nassor/Desktop/calculator/build/calculator.build/Release-iphoneos/calculator.build/Objects-normal/arm64/ContentView.o"
+  }
+}
