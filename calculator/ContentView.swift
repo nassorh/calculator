@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var viewModel = ContentViewModel()
+    @StateObject private var viewModel = ContentViewModel()
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     
     var body: some View {
