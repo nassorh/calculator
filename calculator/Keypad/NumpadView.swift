@@ -60,7 +60,6 @@ struct NumpadView: View {
 }
 
 #Preview {
-    //TODO: ChatGPT generated, need to understand this
     NumpadView(inputNumberCallback: { number in
             print("Number pressed: \(number)")
     }, buttonSize: 80)

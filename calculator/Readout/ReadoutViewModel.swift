@@ -20,7 +20,6 @@ class ReadoutViewModel: ObservableObject, CalculatorModelDelegate {
     }
     
     func didUpdateDisplay(displayedValue: Int, error: Bool) {
-        // TODO: Make note that the $0 refers to the first paramater
         let currentValue = String(displayedValue)
         self.displayValue = currentValue.map{String($0)}
         self.isError = error

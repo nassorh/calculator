@@ -10,6 +10,7 @@ import SwiftUI
 struct KeypadView: View{
     private var viewModel:  KeypadViewModel;
     var buttonSize: CGFloat
+    let darkGray = Color(red: 0.39, green: 0.39, blue: 0.38)
 
     init(viewModel:  KeypadViewModel, buttonSize: CGFloat){
         self.viewModel = viewModel
@@ -27,7 +28,6 @@ struct KeypadView: View{
         }
     }
     
-    let darkGray = Color(red: 0.39, green: 0.39, blue: 0.38)
     var body: some View {
             HStack(alignment: .bottom){
                 
