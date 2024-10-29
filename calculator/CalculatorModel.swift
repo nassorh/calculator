@@ -47,6 +47,10 @@ class CalculatorModel: ObservableObject {
     }
     
     func enterNumber(_ number: Int) {
+        if isError{
+            return
+        }
+        
         if displayedValue.first != 0 {
             self.resetValues()
             isError = true
@@ -70,6 +74,10 @@ class CalculatorModel: ObservableObject {
     }
     
     func setOperation(operation: OperationType) {
+        if isError{
+            return
+        }
+        
         if currentOperation != .none {
             performEquals()
         }
@@ -83,6 +91,10 @@ class CalculatorModel: ObservableObject {
     }
     
     func performEquals() {
+        if isError{
+            return
+        }
+        
         switch currentOperation {
             case .multiplication:
                 self.setDisplayInput(number: convertArrayToInt(storedValue) * convertArrayToInt(displayedValue))
