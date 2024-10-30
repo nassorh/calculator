@@ -9,11 +9,11 @@ import SwiftUI
 
 struct SevenSegmentView: View {
     var displayText: String?
-    let activeColour: Color;
-    let inactiveColour: Color;
-    let longEdge: CGFloat;
-    let shortEdge: CGFloat;
-    let lineSpacing: CGFloat;
+    let activeColour: Color = Color.black
+    let inactiveColour: Color = Color.gray.opacity(0.4)
+    let longEdge: CGFloat = 30;
+    let shortEdge: CGFloat = 5;
+    let lineSpacing: CGFloat = 5;
     
     let displayedTextRectangleMap = [
         "e":[true,true,false,true,true,false,true],
@@ -30,13 +30,8 @@ struct SevenSegmentView: View {
         "9":[true,true,true,true,false,true,true]
     ]
     
-    init (displayText: String? = nil, activeColour: Color = Color.black, inactiveColour: Color = Color.gray, longEdge: CGFloat, shortEdge: CGFloat, lineSpacing: CGFloat){
+    init (displayText: String? = nil){
         self.displayText = displayText;
-        self.activeColour = activeColour;
-        self.inactiveColour = inactiveColour.opacity(0.4);
-        self.longEdge = longEdge;
-        self.shortEdge = shortEdge;
-        self.lineSpacing = lineSpacing;
     }
     
     func colorForSegment(index: Int) -> Color {
@@ -79,6 +74,6 @@ struct SevenSegmentView: View {
 }
 
 #Preview {
-    SevenSegmentView(displayText: "r", longEdge: 300, shortEdge: 50, lineSpacing: 2)
-        .frame(width: 400)
+    SevenSegmentView(displayText: "r")
+        .frame(width: 50)
 }

@@ -19,19 +19,19 @@ struct ReadoutView: View {
         HStack{
             if viewModel.isError {
                 ForEach(0..<(viewModel.maxNumberOfDigits - 3), id: \.self){ index in
-                    SevenSegmentView(longEdge: longEdge, shortEdge: shortEdge, lineSpacing: lineSpacing)
+                    SevenSegmentView()
                 }
                 
                 ForEach(["e","r","r"], id: \.self) { letter in
-                    SevenSegmentView(displayText: letter, longEdge: longEdge, shortEdge: shortEdge, lineSpacing: lineSpacing)
+                    SevenSegmentView(displayText: letter)
                 }
             } else {
                 ForEach(0..<(viewModel.maxNumberOfDigits - valuesArray.count), id: \.self){ index in
-                    SevenSegmentView(longEdge: longEdge, shortEdge: shortEdge, lineSpacing: lineSpacing)
+                    SevenSegmentView()
                 }
                 
                 ForEach(valuesArray, id: \.self) { number in
-                    SevenSegmentView(displayText: String(number), longEdge: longEdge, shortEdge: shortEdge, lineSpacing: lineSpacing)
+                    SevenSegmentView(displayText: String(number))
                 }
             }
         }
